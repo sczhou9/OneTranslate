@@ -1,0 +1,16 @@
+.build/
+.build-*/
+build/
+dist/
+.DS_Store
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.mobileprovision
+*.log
+*.app
+*.app.*
+*.xcuserstate
