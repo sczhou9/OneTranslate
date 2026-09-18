@@ -34,3 +34,5 @@ open build/OneTranslate.app
 ```
 
 The generated bundle is universal for Apple Silicon and Intel Macs. The current implementation is macOS-only because the system-level text replacement and Fn event are platform APIs.
+
+The same command also creates `dist/OneTranslate-macOS-universal-0.0.1.dmg` for distribution. Set `ONETRANSLATE_VERSION` when building another release version; the DMG volume name and filename follow that value.
